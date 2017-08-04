@@ -15,7 +15,6 @@
 *.cb2
 
 *.dvi
-*.pdf
 
 *.fdb_latexmk
 *.synctex
