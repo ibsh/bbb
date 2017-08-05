@@ -33,6 +33,8 @@
 \setitemize{itemsep=3pt, topsep=1.5ex, parsep=0pt, partopsep=0pt}
 \setenumerate{itemsep=3pt, topsep=1.5ex, parsep=0pt, partopsep=0pt}
 
+\setlist[itemize]{leftmargin=1.5ex}
+
 \renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
 
 \usepackage{numprint}
@@ -101,7 +103,13 @@
 \end{tabularx}
 \medskip
 
-\par Scatter the ball D6 squares, in a random direction determined by D8 (use the scatter template). Assuming the ball lands in the receiving team's half of the pitch, then it will either land in an empty square or a square occupied by a player. If it lands in an empty square it will \textbf{bounce one more square}. If the ball lands on a square occupied by a player, they must try to catch the ball. If the ball scatters or bounces off the pitch, or into the kicking team's half, the receiving coach is awarded a Touchback and must give the ball to any player on their team. Once the kick-off has been taken you are ready to proceed to the first turn of the game.
+\par Scatter the ball D6 squares, in a random direction determined by D8 (use the scatter template).
+\begin{itemize}
+\item If the ball lands in an empty square it will bounce one more square.
+\item If it lands on a square occupied by a player, they must try to catch the ball.
+\item If the ball scatters or bounces off the pitch, or into the kicking team's half, the receiving coach is awarded a Touchback and must give the ball to any player on their team. 
+\end{itemize}
+\par Once the kick-off has been taken you are ready to proceed to the first turn of the game.
 
 \subsection{The sequence of play}
 \par Blood Bowl is split into two halves of sixteen turns each (i.e. eight turns per coach). The game is played using a simple but strict sequence of play, with the receiving team taking a turn, followed by the kicking team, one after the other, until the end of the drive. A drive is defined as playing until a touchdown is scored or the half ends.
