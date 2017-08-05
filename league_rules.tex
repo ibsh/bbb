@@ -1,0 +1,104 @@
+\section{League rules}
+
+\subsection{Starting a league}
+\par A league consists of a group of teams (preferably at least four) who will play each other (and maybe other teams) over the course of a series of games. You can start playing league matches as soon as all the coaches taking part in the league have created their teams. It is up to the teams' coaches to organize any matches that they play. A team can play as often as a coach likes; the only restriction is that a team may not play against the same opponent for more than two matches in a row.
+
+\subsection{Creating a team}
+\par In order to create a team you have a treasury of 0 gold pieces. Study the team lists and decide which you want to use; all of the players in your team must be from the same team list.
+\par You must now hire the players for your team, with attention to their cost and the limitations on the number of each type of player you are allowed to take. Your team must have at least 11 players and may not have more than 16. You may also buy a number of other assets, as follows.
+
+\subsubsection{Team re-rolls}
+\par Each re-roll costs the number of gold pieces shown on the team list for the team that you have chosen.
+
+\subsubsection{Apothecaries}
+\par Each Apothecary can be used only once per match, to attempt to cure a player who has been KO'd or suffered a Casualty. If the player was KO'd leave them on the pitch Stunned, or in the Reserves box if they are not on the pitch. If the player suffered a Casualty, you can use the Apothecary to make your opponent roll again on the Casualty table, and then you choose which of the two results to apply.
+
+\subsubsection{Igor}
+\par Any team that cannot hire Apothecaries may enlist the services of an Igor. He is a master of needle and thread, and may be used once per game to re-roll a failed Regeneration roll.
+
+\subsubsection{Bloodweiser kegs}
+\par Each Bloodweiser Keg can be used once per match before a kick-off, to gain a +1 modifier for each player rolling to recover from KO.
+
+\subsection{Team value}
+\par The value of a team is worked out by adding up the value of the players, their extra value from improvements or deductions for injuries, the cost of the team re-rolls, and any other assets. The value in gold pieces is divided by \TVdivisor\ for ease.
+\par All teams must maintain a Team Value of at most \TV\ (or \numprint{\TVGP} gold pieces) at all times. Teams must meet this restriction prior to and after every match, and thus must alter their roster following each match to return to the target TV by any means they wish. Any combination of players and assets may be purchased or removed to meet the \TV\ mark.
+
+\subsection{Match records}
+\par During your games, keep track whenever one of your players scores a touchdown, causes a casualty, or suffers a niggling injury. Casualties are valid if the player blocks an opponent or is blocked by an opponent themselves; casualties inflicted in any other way are not counted. At the end of the game, record whether your team won or lost.
+
+\subsection{Post-match sequence}
+
+\subsubsection{Star Player rolls}
+\par All players start out as Rookies with no Star Player points (SPPs), but once they start to gain experience they can improve their skills. After each match, for each surviving player that did not miss the game due to a prior casualty, roll a D6 on the following table, applying the appropriate modifiers, to determine how many SPPs the player earned from this match. Note the player's new total.
+
+\medskip
+\begin{tabularx}{\linewidth}{ | X | c | c | c | c | c | c | }
+\hline
+\multicolumn{7}{| l |}{\textbf{Star Player rolls}} \\
+\hline
+Roll & <3 & 3-4 & 5-6 & 7-8 & 9-10 & >10 \\
+\hline
+SPPs & 0 & 1 & 2 & 3 & 4 & 5 \\
+\hline
+\end{tabularx}
+\medskip
+
+\medskip
+\begin{tabularx}{\linewidth}{ | X | c | }
+\hline
+\multicolumn{2}{| l |}{\textbf{Star Player roll modifiers}} \\
+\hline
+Team won & +1 \\
+\hline
+Team lost & -1 \\
+\hline
+Team scored 2 or more TDs & +1 \\
+\hline
+Team caused 2 or more casualties & +1 \\
+\hline
+Player scored any TDs & +1 \\
+\hline
+Player caused any casualties & +1 \\
+\hline
+\end{tabularx}
+\medskip
+
+\subsubsection{Improvement rolls}
+\par Once a player has earned 6 SPPs they are entitled to their first Improvement roll. Each time that the player goes up another level, they are entitled to another Improvement roll. The table below lists the number of SPPs that are required to reach each different level.
+
+\medskip
+\begin{tabularx}{\linewidth}{ | c | X | c | c | }
+\hline
+\textbf{SPPs} & \textbf{Title} & \textbf{Improvements} & \textbf{TV increase} \\
+\hline
+0-5 & Rookie & 0 & 0 \\
+\hline
+6-15 & Experienced & 1 & 10 \\
+\hline
+16-30 & Veteran & 2 & 25 \\
+\hline
+31-50 & Emerging Star & 3 & 60 \\
+\hline
+51-75 & Star & 4 & 120 \\
+\hline
+76-175 & Super Star & 5 & 250 \\
+\hline
+176+ & Legend & 6 & 350 \\
+\hline
+\end{tabularx}
+\medskip
+
+\par At the end of the match work out how many SPPs each of the players in your team has earned, and look up their scores on the Star Player points table. If the player has earned enough points to go up a level, then immediately make an improvement roll for them. Roll a D6. If the result is 1-5, you may choose a skill for that player from their Normal skill categories. If the result is a 6, you may choose a skill from either their Normal or Exceptional categories. Record the new skill on your roster sheet.
+\par Conceding a match also has an effect on SPPs. A player that concedes before setting up for a kick-off where they could only field 2 or fewer players suffers no additional penalties. If a coach concedes the match for any other reason, they receive no SPPs for this match. The winner receives SPPs as normal, plus one additional SPP per player on the team, even if they didn't take the field.
+
+\subsubsection{Update roster}
+\par First, remove any dead players from your team roster. Then update the value of each of your surviving players:
+
+\begin{itemize}
+\item Each improvement increases their value by the amount shown on the table above.
+\item Each niggling injury reduces their value by 10 TV
+\end{itemize}
+
+\par Then, you must update your roster to return to the target team value of \TV\. You may buy or discard any players or other assets to arrive at \TV\ TV. All new and replacement players added are rookies, and may not go beyond the limits established by the team roster. Veteran players removed are lost permanently, and may not be recovered in the future.
+
+\end{multicols}
